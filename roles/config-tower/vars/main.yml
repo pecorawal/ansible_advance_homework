@@ -3,8 +3,8 @@
 org_name: Default 
 scm_branch: master 
 scm_url: "{{ github_repo }}"
-proj_name: "Homework Assignment"
-user_name: admin 
+proj_name: "Homework Assignment Rafael Pecora"
+user_name: admin
 password: r3dh4t1!
 ssh_cred_name: "Connect_to_workstation"
 user_cred_name: "cloud-user"
@@ -41,4 +41,8 @@ job_template_name_3tier_app_aws: "3 tier app on Prod"
 aws_cred_name: "Creds for AWS instances"
 job_template_smoke_aws: "Smoke test Prod env"
 aws_smoke_app_playbook: site-smoketest-aws.yml
-
+#new added vars to homework assignment
+path_to_opentlc_key: /root/.ssh/id_rsa
+proj_description: "Project to get assignment at Ansible Course"
+region: 'sa-east-1'
+aws_region_name: 'sa-east-1'
